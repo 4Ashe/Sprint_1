@@ -20,10 +20,9 @@
   align-items: center;
   padding-left: 64px;
   background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
 }
 
-.logo {
+.logo_place_header {
   background-image: url("../images/logo.svg");
   position: absolute;
   left: 64px;
@@ -294,6 +293,7 @@
 .footer {
   display: flex;
   min-height: 350px;
+  color: #f2f2f2;
   background-color: #1f1f1f;
   box-sizing: border-box;
   padding: 60px 0 40px;
@@ -318,13 +318,13 @@
 
 .logo_place_footer {
   background-image: url(../images/logo_white.svg);
+  background-repeat: no-repeat;
   position: relative;
   height: 35px;
   margin: 0;
 }
 
 .footer__author {
-  color: #f2f2f2;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -332,7 +332,6 @@
 }
 
 .footer__column-heading {
-  color: #f2f2f2;
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
